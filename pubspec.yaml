@@ -49,7 +49,4 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/img/onboard-background.jpg
-    - assets/img/onboard-background-free.jpg
-    - assets/img/logo-android.png
-    - assets/img/logo-ios.png
+    - assets/img/
