@@ -1,6 +1,5 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import 'widgets/drawer.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -636,6 +635,167 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ),
                           ],
+                        ),
+                      )
+                    ],
+                  ),
+                )
+              ],
+            ),
+          ),
+          SizedBox(height: 8),
+          Container(
+            margin: EdgeInsets.all(8),
+            height: 1200,
+            width: MediaQuery.of(context).size.width,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Container(
+                  padding: EdgeInsets.all(8),
+                  margin: EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(18),
+                      color: Colors.deepPurple),
+                  child: Text(
+                    "Latest Post",
+                    style: TextStyle(color: Colors.white, fontSize: 18),
+                  ),
+                ),
+                SizedBox(height: 8),
+                Container(
+                  height: 800,
+                  margin: EdgeInsets.all(8),
+                  child: ListView(
+                    children: [
+                      ///
+                      Card(
+                        elevation: 8,
+                        child: Container(
+                          height: 200,
+                          child: Row(
+                            children: [
+                              Expanded(
+                                flex: 2,
+                                child: Image(
+                                  image: AssetImage("assets/img/food.jpg"),
+                                ),
+                              ),
+                              SizedBox(height: 8),
+                              Expanded(
+                                  flex: 3,
+                                  child: Container(
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',",
+                                          overflow: TextOverflow.ellipsis,
+                                          maxLines: 3,
+                                          softWrap: true,
+                                          style: TextStyle(
+                                              color: Colors.black,
+                                              fontSize: 20),
+                                        ),
+                                        SizedBox(height: 8),
+                                        Expanded(
+                                            flex: 3,
+                                            child: Container(
+                                              child: Column(
+                                                children: [
+                                                  Text(
+                                                    "May 23 2027",
+                                                    style: TextStyle(
+                                                      color: Colors.purple,
+                                                      fontSize: 14,
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            )),
+                                        Container(
+                                          padding: EdgeInsets.all(8),
+                                          margin: EdgeInsets.all(8),
+                                          decoration: BoxDecoration(
+                                              borderRadius:
+                                                  BorderRadius.circular(16),
+                                              color: Colors.purple),
+                                          child: Text(
+                                            "Read More",
+                                            style:
+                                                TextStyle(color: Colors.white),
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ))
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(height: 8),
+
+                      Card(
+                        elevation: 8,
+                        child: Container(
+                          height: 200,
+                          child: Row(
+                            children: [
+                              Expanded(
+                                flex: 2,
+                                child: Image(
+                                  image: AssetImage("assets/img/landscape.jpg"),
+                                ),
+                              ),
+                              SizedBox(height: 8),
+                              Expanded(
+                                  flex: 3,
+                                  child: Container(
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          "It is a long established fact that a reader will be bla bla bal",
+                                          style: TextStyle(
+                                              color: Colors.black,
+                                              fontSize: 20),
+                                        ),
+                                        SizedBox(height: 8),
+                                        Expanded(
+                                            flex: 3,
+                                            child: Container(
+                                              child: Column(
+                                                children: [
+                                                  Text(
+                                                    "May 23 2027",
+                                                    style: TextStyle(
+                                                      color: Colors.purple,
+                                                      fontSize: 14,
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            )),
+                                        Container(
+                                          padding: EdgeInsets.all(8),
+                                          margin: EdgeInsets.all(8),
+                                          decoration: BoxDecoration(
+                                              borderRadius:
+                                                  BorderRadius.circular(16),
+                                              color: Colors.purple),
+                                          child: Text(
+                                            "Read More",
+                                            style:
+                                                TextStyle(color: Colors.white),
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  )),
+                            ],
+                          ),
                         ),
                       )
                     ],
