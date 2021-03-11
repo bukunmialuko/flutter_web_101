@@ -243,6 +243,7 @@ class _HomePageState extends State<HomePage> {
                   height: 350,
                   width: 1250,
                   child: ListView(
+                    scrollDirection: Axis.horizontal,
                     children: [
                       Container(
                         height: 350,
@@ -260,21 +261,378 @@ class _HomePageState extends State<HomePage> {
                                       image: AssetImage("assets/img/food.jpg"),
                                       fit: BoxFit.cover)),
                             ),
-                            SizedBox(height: 8,),
+                            SizedBox(
+                              height: 8,
+                            ),
                             Container(
                               margin: EdgeInsets.all(8),
                               child: Text(
                                 "Lorem Ipsum Dollar",
-                                style: TextStyle(color: Colors.white, fontSize: 18),
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 18),
                               ),
                             ),
-
-                            SizedBox(height: 8,),
+                            SizedBox(
+                              height: 8,
+                            ),
                             Container(
                               margin: EdgeInsets.all(8),
                               child: Text(
                                 "Lorem Ipsum Dollar",
-                                style: TextStyle(color: Colors.white, fontSize: 16),
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 16),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(
+                        width: 8,
+                      ),
+                      Container(
+                        height: 350,
+                        width: 250,
+                        color: Colors.black,
+                        child: Column(
+                          children: [
+                            Container(
+                              width: 150,
+                              height: 150,
+                              margin: EdgeInsets.all(8),
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(8),
+                                  image: DecorationImage(
+                                      image: AssetImage("assets/img/food.jpg"),
+                                      fit: BoxFit.cover)),
+                            ),
+                            SizedBox(
+                              height: 8,
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(8),
+                              child: Text(
+                                "Lorem Ipsum Dollar",
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 18),
+                              ),
+                            ),
+                            SizedBox(
+                              height: 8,
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(8),
+                              child: Text(
+                                "Lorem Ipsum Dollar",
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 16),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(
+                        width: 8,
+                      ),
+                      Container(
+                        height: 350,
+                        width: 250,
+                        color: Colors.black,
+                        child: Column(
+                          children: [
+                            Container(
+                              width: 150,
+                              height: 150,
+                              margin: EdgeInsets.all(8),
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(8),
+                                  image: DecorationImage(
+                                      image: AssetImage("assets/img/food.jpg"),
+                                      fit: BoxFit.cover)),
+                            ),
+                            SizedBox(
+                              height: 8,
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(8),
+                              child: Text(
+                                "Lorem Ipsum Dollar",
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 18),
+                              ),
+                            ),
+                            SizedBox(
+                              height: 8,
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(8),
+                              child: Text(
+                                "Lorem Ipsum Dollar",
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 16),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(
+                        width: 8,
+                      ),
+                      Container(
+                        height: 350,
+                        width: 250,
+                        color: Colors.black,
+                        child: Column(
+                          children: [
+                            Container(
+                              width: 150,
+                              height: 150,
+                              margin: EdgeInsets.all(8),
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(8),
+                                  image: DecorationImage(
+                                      image: AssetImage("assets/img/food.jpg"),
+                                      fit: BoxFit.cover)),
+                            ),
+                            SizedBox(
+                              height: 8,
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(8),
+                              child: Text(
+                                "Lorem Ipsum Dollar",
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 18),
+                              ),
+                            ),
+                            SizedBox(
+                              height: 8,
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(8),
+                              child: Text(
+                                "Lorem Ipsum Dollar",
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 16),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(
+                        width: 8,
+                      ),
+                      Container(
+                        height: 350,
+                        width: 250,
+                        color: Colors.black,
+                        child: Column(
+                          children: [
+                            Container(
+                              width: 150,
+                              height: 150,
+                              margin: EdgeInsets.all(8),
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(8),
+                                  image: DecorationImage(
+                                      image: AssetImage("assets/img/food.jpg"),
+                                      fit: BoxFit.cover)),
+                            ),
+                            SizedBox(
+                              height: 8,
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(8),
+                              child: Text(
+                                "Lorem Ipsum Dollar",
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 18),
+                              ),
+                            ),
+                            SizedBox(
+                              height: 8,
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(8),
+                              child: Text(
+                                "Lorem Ipsum Dollar",
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 16),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(
+                        width: 8,
+                      ),
+                      Container(
+                        height: 350,
+                        width: 250,
+                        color: Colors.black,
+                        child: Column(
+                          children: [
+                            Container(
+                              width: 150,
+                              height: 150,
+                              margin: EdgeInsets.all(8),
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(8),
+                                  image: DecorationImage(
+                                      image: AssetImage("assets/img/food.jpg"),
+                                      fit: BoxFit.cover)),
+                            ),
+                            SizedBox(
+                              height: 8,
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(8),
+                              child: Text(
+                                "Lorem Ipsum Dollar",
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 18),
+                              ),
+                            ),
+                            SizedBox(
+                              height: 8,
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(8),
+                              child: Text(
+                                "Lorem Ipsum Dollar",
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 16),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(
+                        width: 8,
+                      ),
+                      Container(
+                        height: 350,
+                        width: 250,
+                        color: Colors.black,
+                        child: Column(
+                          children: [
+                            Container(
+                              width: 150,
+                              height: 150,
+                              margin: EdgeInsets.all(8),
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(8),
+                                  image: DecorationImage(
+                                      image: AssetImage("assets/img/food.jpg"),
+                                      fit: BoxFit.cover)),
+                            ),
+                            SizedBox(
+                              height: 8,
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(8),
+                              child: Text(
+                                "Lorem Ipsum Dollar",
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 18),
+                              ),
+                            ),
+                            SizedBox(
+                              height: 8,
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(8),
+                              child: Text(
+                                "Lorem Ipsum Dollar",
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 16),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(
+                        width: 8,
+                      ),
+                      Container(
+                        height: 350,
+                        width: 250,
+                        color: Colors.black,
+                        child: Column(
+                          children: [
+                            Container(
+                              width: 150,
+                              height: 150,
+                              margin: EdgeInsets.all(8),
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(8),
+                                  image: DecorationImage(
+                                      image: AssetImage("assets/img/food.jpg"),
+                                      fit: BoxFit.cover)),
+                            ),
+                            SizedBox(
+                              height: 8,
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(8),
+                              child: Text(
+                                "Lorem Ipsum Dollar",
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 18),
+                              ),
+                            ),
+                            SizedBox(
+                              height: 8,
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(8),
+                              child: Text(
+                                "Lorem Ipsum Dollar",
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 16),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(
+                        width: 8,
+                      ),
+                      Container(
+                        height: 350,
+                        width: 250,
+                        color: Colors.black,
+                        child: Column(
+                          children: [
+                            Container(
+                              width: 150,
+                              height: 150,
+                              margin: EdgeInsets.all(8),
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(8),
+                                  image: DecorationImage(
+                                      image: AssetImage("assets/img/food.jpg"),
+                                      fit: BoxFit.cover)),
+                            ),
+                            SizedBox(
+                              height: 8,
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(8),
+                              child: Text(
+                                "Lorem Ipsum Dollar",
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 18),
+                              ),
+                            ),
+                            SizedBox(
+                              height: 8,
+                            ),
+                            Container(
+                              margin: EdgeInsets.all(8),
+                              child: Text(
+                                "Lorem Ipsum Dollar",
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 16),
                               ),
                             ),
                           ],
